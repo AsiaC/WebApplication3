@@ -63,12 +63,11 @@ namespace WebApplication3
                 endpoints.MapControllers();
             });
             app.UseCors("CorsPolicy");
-            //app.UseMvc();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}");
             });
-            //app.UseEndpoints();
         }
     }
 }

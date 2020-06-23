@@ -10,7 +10,7 @@ using WebApplication3.Models;
 namespace WebApplication3.Controllers
 {
     [Produces("application/json")]
-    [Route("api/Workouts")]//[Route("api/[controller]")]
+    [Route("api/Workouts")]//[Route("api/[controller]")] //https://localhost:44337/api/Workouts
     [ApiController]
     public class WorkoutsController : ControllerBase
     {
